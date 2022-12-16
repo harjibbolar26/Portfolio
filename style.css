@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+/*     height: 100vh;
+    width: 100%; */
+    background-image: url(images/jb1grey.jpg);
+    background-position: center;
+    background-color: #e4e0f0;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 5px 30px;
+    /* border: 2px solid ; */
+    /* border-radius: 15px; */
+    background-color: rgb(0, 0, 255)
+}
+/* .hero{
+    background: url(pauljbgrey.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+} */
+.logo{
+    max-height: 60px;
+}
+
+.nav-link{
+    /* border: 2px solid; */
+    padding: 2px;
+    margin: 10px;
+    background-color: #e4e0f0;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.nav-link:hover{
+    background-color: #fff;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #000;
+    margin: 10px;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+.content .title{
+    /* color: #1f1f25; */
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: blue;
+}
+h2{
+font-size: 25px;
+font-weight: 800;
+}
+/* #about{
+    position: absolute;
+    top: 45%;
+    left: 8%;
+} */
+.content p{
+    width: 40%;
+    color: #000;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+p{
+    margin-left: 2%;
+    width: 50%;
+    line-height: 30px;
+}
+ol{
+    width: 70%;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+li{
+    margin-top: 3px;
+   
+    margin-left: 5%
+}
+#services{
+    position: absolute;
+    top:15%;
+    left: 8%;
+    /* border: 2px solid ; */
+    /* border-radius: 15px; */    
+}
+h2{
+     /* border: 2px solid; */
+     background-color: blue;
+     border-radius: 10px;
+     display: inline-block;
+     margin: 2px;
+     color: #e4e0f0
+}
+#projects{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+   bottom: 0.5%;
+    left: 50%;
+}
+/* p{
+    width: 60%;
+    color: #757575;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    list-style: none;
+} */
+.contact-wrap{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+.contact-title{
+    /* border: 1px; */
+    border-radius: 10px;
+    background-color: blue;
+    color:#e4e0f0;
+    padding: 7px;
+    font-size: 15px;
+    display: flex;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+.contact-body{
+    border: 1px; 
+    border-radius: 15px;
+    width: 50%;
+    padding: 10px;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.664);
+    
+}
+.contact-form{
+    margin-top: 5px;
+}
+label{
+    width: 50%;
+    font-size: 15px;
+}
+ textarea{
+    margin-top: 5px;
+}
+input, textarea{
+    width: 100%;
+    font-size: 15px;
+    background-color: #e4e0f0;
+    cursor: pointer;
+    padding: 3px;
+}
+/* .contact-form input label textarea{
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+} */
+hr{
+    margin-top: 15px;
+    /* height: 5px;
+    background-color: blue; */
+    border-top: 1px dashed blue;
+}
+/* .contact-form .submit1{
+    margin-top: 7px;
+    padding: 7px;
+    cursor: pointer;
+} */
+.submit1{
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.submit2{
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.contact-wrap .submit1 .submit2 :hover{
+    background: #fff;
+    color: blue;
+}
+.contact-form input:focus{
+    border: 2px solid blue;
+}
+.soc-med{
+  display: inline;
+ height:30px;
+ width: 30px;
+}
